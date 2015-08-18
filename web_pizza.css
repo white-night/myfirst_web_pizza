@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Georgia, Arial, Verdana, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.flickity-page-dots {
+    bottom: 0px;
+}
+
+.flickity-page-dots .dot {
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: #ffffff;
+    border: 0;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #BF242B;
+}
+
+.main_content_container {
+    width: 100%;
+    position: relative;
+}
+
+.head_container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 120px;
+    background-color: white;
+    z-index: 99;
+}
+
+.head {
+    width: 980px;
+    position: relative;
+    margin: auto;
+    clear: both;
+    height: 120px;
+}
+
+.head .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.head .logo a {
+    background-image: url("http://www.paisanos.com.hk/lang/en/images/logo.png?v=2?v=2");
+    float: left;
+    background-repeat: no-repeat;
+    width: 309px;
+    height: 99px;
+}
+
+.head_social_link {
+    position: absolute;
+    top: 15px;
+    right: 216px;
+}
+
+.head_social_link .item {
+    float: left;
+    margin-left: 10px;
+}
+
+.head_social_link .text {
+    background-image: url("http://www.paisanos.com.hk/lang/images/icon/text.png");
+    background-repeat: no-repeat;
+    width: 174px;
+    height: 21px;
+}
+
+.head_social_link .facebook a {
+    background-image: url('http://www.paisanos.com.hk/lang/images/icon/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 13px;
+    height: 25px;
+    float: left;
+}
+
+.head_social_link .twitter a {
+    background-image: url("http://www.paisanos.com.hk/lang/images/icon/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 26px;
+    height: 25px;
+    float: left;
+}
+
+.head #menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head #menu a {
+    background-image: url("http://www.paisanos.com.hk/lang/en/images/button/btn_download_menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 196px;
+    height: 39px;
+}
+
+.head #head_nav {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+}
+
+#head_nav .item {
+    float: left;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+#head_nav .item a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Tahoma', sans-serif;
+    color: #006835;
+}
+
+#head_nav .nav_home a {
+    color: #BF242B;
+}
+
+.main_content {
+    width: 100%;
+    margin-top: 120px;
+    background-color: white;
+}
+
+.bx_wrapper {
+    width: 100%;
+    height: 444px;
+}
+
+.bx_wrapper .img_1 {
+    background-image: url("http://www.paisanos.com.hk/upload/images/home_banner/20150226204132_18.jpg");
+    height: 444px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bx_wrapper .img_2 {
+    background-image: url("img/20150108081151_3.jpg");
+    height: 444px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.home_ad_container {
+    width: 100%;
+    background-color: bisque;
+    clear: both;
+}
+
+.home_ad {
+    width: 980px;
+    clear: both;
+    padding: 30px 0 10px;
+    margin: auto;
+}
+
+.home_ad_list {
+    width: 100%;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home_ad .content {
+    height: 80px;
+    padding: 25px 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.home_ad_list .title {
+    color: #146C3A;
+    font-size: 26px;
+}
+
+.home_ad_list .desc {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.home_ad .item {
+    margin-left: 16px;
+    margin-bottom: 15px;
+    float: left;
+    width: 316px;
+    background-color: white;
+}
+
+.home_ad .item_left {
+    margin-left: 0px;
+}
+
+.home_ad .photo {
+    height: 220px;
+    width: 100%;
+    background-image: url("http://www.paisanos.com.hk/upload/images/advertise/img/20141217172920_1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home_bottom_container {
+    clear: both;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0;
+}
+
+.home_bottom {
+    width: 980px;
+    margin: auto;
+    text-align: center;
+    color: gray;
+}
+
+.home_bottom p {
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.home_bottom table {
+    margin: auto;
+    width: 749px;
+}
+
+.home_bottom table td {
+    color: #146C3A;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.home_bottom table .number {
+    color: #BF242B;
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.home_footer {
+    width: 100%;
+    background-image: url("http://www.paisanos.com.hk/lang/images/footer.png");
+    background-repeat: repeat-x;
+    clear: both;
+    height: 270px;
+}
+
+.home_footer_content {
+    width: 980px;
+    margin: auto;
+    position: relative;
+}
+
+.home_footer_content .some {
+    margin: auto;
+}
+
+.home_footer_content .nav {
+    margin: auto;
+    text-align: center;
+    padding: 30px 0 10px;
+}
+
+.home_footer_content .some a {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    margin: 0 10px;
+    font-family: Arial sans-serif;
+}
+
+.home_footer_content a:hover {
+    text-decoration: underline;
+}
+
+.home_footer_content .copyright {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.home_footer_content .copyright span {
+    font-family: Arial sans-serif;
+}
+
+.home_footer_content .social-media {
+    position: absolute;
+    top: 24px;
+    right: 0;
+}
+
+.social-media .twitter {
+    margin-left: 5px;
+}
